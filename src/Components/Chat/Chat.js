@@ -13,9 +13,8 @@ import "react-toastify/dist/ReactToastify.css";
 const notificationAudio = new Audio(audio);
 
 let socket;
-// "https://demo-cchat.herokuapp.com/" ||
-const ENDPOINT = "http://localhost:8000";
 
+const ENDPOINT="https://socket-io-server-u8d3.vercel.app/"
 const Chat = () => {
   const [id, setid] = useState("");
   const [messages, setMessages] = useState([]);
